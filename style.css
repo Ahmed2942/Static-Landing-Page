@@ -1,0 +1,258 @@
+* {
+	font-family: Arial, sans-serif;
+	text-transform: capitalize;
+}
+button, input {
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+}
+body {
+	margin: 0;
+	color: #888;
+}
+h1 {
+	font-size: 56px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+article h1, h2, h3 {
+	color: #111;
+}
+.slider {
+	color: #fff;
+	text-align: center;
+	background-image: url("images/slider.jpg");
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.slider .hello {
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+}
+.slider h1 {
+	padding: 10px;
+	border: 0 solid #fff;
+	border-width: 3px 0;
+}
+.slider button {
+	background-color: transparent;
+	border: 3px solid #fff;
+	padding: 10px 50px;
+	color: #fff;
+	font-size: 24px;
+}
+.back {
+	width: 100%;
+	background-color: #252F31;
+}
+.back > * {
+	width: 1100px;
+	margin: 0 auto;
+	
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+header .green {
+	color: #2cac48;
+}
+header ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+header ul li:hover {
+	color: #2cac48;
+}
+.container article {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+header ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+header h2 {
+	color: #fff;
+}
+.container > .back:nth-child(even) {
+	background-color: #efefef;
+}
+.container > .back:nth-child(odd) {
+	background-color: #fff;
+}
+article.block {
+	text-align: center;
+	display: block;
+	padding: 20px 0;
+}
+article.intro > * {
+	width: 30%;
+}
+article img {
+	max-height: 100%;
+	max-width: 100%;
+}
+article.about {
+	justify-content: flex-start;
+}
+article.about .desc {
+	margin-left: 20px;
+}
+article.about .flex-box {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+}
+article.about .flex-box > div {
+	width: 34%;
+	position: relative;
+}
+article.about .flex-box i{
+	display: block;
+	position: absolute;
+	left: -50px;
+	top: 40px;
+	font-size: 28px;
+	color: #2dcc70; 
+}
+article button {
+	border: 2px solid #2dcc70;
+	color: #2dcc70;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #fff;
+	padding: 10px 30px;
+}
+.meter {
+	height: 30px;
+	background-color: #efefef;
+}
+.meter > div {
+	text-align: right;
+	color: #fff;
+	background-color: #2dcc70;
+	padding: 5px;
+}
+.course:first-child .meter > div {
+	width: 83%;
+}
+.course:nth-child(2) .meter > div {
+	width: 88%;
+}
+.course:nth-child(3) .meter > div {
+	width: 90%;
+}
+.course:nth-child(4) .meter > div {
+	width: 70%;
+}
+article.skills > div, article.edu > div, article.work > div {
+	width: 46%;
+}
+article .expert {
+	margin-top: 30px;
+}
+article .green {
+	display: inline-block;
+	color: #fff;
+	background-color: #2dcc70;
+	padding: 5px;
+}
+article .expert hr ~ * {
+	margin: 0 auto;
+}
+hr {
+	padding:0;
+	margin: 36px 0 30px;
+}
+article q {
+	font: italic bold 18px/1.8 Arial, Tahoma;
+	text-transform: none;
+}
+.quote .navi {
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+}
+.quote .navi .square {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #2dcc70;
+	margin: 0 5px;
+}
+.quote .navi .square:hover {
+	background-color: #2dcc70;
+	cursor: pointer;
+}
+.quote .navi .square:nth-child(2) {
+	background-color: #2dcc70;
+}
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.gallery img {
+	display: block;
+	border: 1px solid #eee;
+	padding: 0.2%;
+	width: 32%;
+	margin: 10px 0;
+}
+.back.foot-1 {
+	background-color: #252f31 !important;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+}
+.contact > * {
+	width: 45%;
+}
+.contact input, .contact button, label {
+	display: block;
+}
+form > * {
+	margin: 25px 0;
+}
+.contact input {
+	background-color: #4b5557;
+	height: 25px;
+	width: 80%;
+}
+.contact textarea {
+	width: 80%;
+	height: 400px;
+	background-color: #4b5557;
+}
+.contact button {
+	background-color: #191e22;
+	color: #fff;
+	padding: 10px 25px;
+	font-size: 18px;
+}
+footer strong, footer h2 {
+	color: #fff;
+}
+.back.foot-2 {
+	padding: 15px 0;
+	background-color: #191e22 !important;
+}
